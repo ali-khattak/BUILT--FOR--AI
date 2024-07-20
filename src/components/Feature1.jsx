@@ -1,5 +1,5 @@
 import React from "react";
-import content from "/Content.svg";
+import Feature2 from "/Feature2.svg";
 
 const Feature1 = () => {
   return (
@@ -22,7 +22,7 @@ const Feature1 = () => {
       <div className="flex justify-center items-start">
         <div className="relative">
           <img
-            src={content}
+            src={Feature2}
             alt="Trending Prompts"
             className="rounded-lg shadow-lg"
           />
