@@ -9,37 +9,37 @@ const Features = () => {
   const features = [
     {
       icon: img1,
-      title: "Enhanced Experiences",
-      description: "Tailor interactions to your specific needs with customizable options.",
-      linkText: "Discover more",
+      title: "Good Experiences",
+      description: "Our chatbot offers customizable options to tailor interactions based on your specific needs..",
+      linkText: "Learn more",
     },
     {
       icon: img2,
-      title: "Round-the-Clock Support",
-      description: "Operate 24/7, providing instant support and making your business always accessible.",
-      linkText: "Discover more",
+      title: "24/7 Availibility",
+      description: "Our chatbot operates around the clock, providing instant support and making your business accessible.",
+      linkText: "Learn more",
     },
     {
       icon: img3,
-      title: "Budget-Friendly",
-      description: "Cost-effective alternative to traditional support channels, delivering substantial ROI.",
-      linkText: "Discover more",
+      title: "Cost Effective",
+      description: "Our chatbot offers a cost-effective alternative to traditional support channels, providing significant ROI.",
+      linkText: "Learn more",
     },
     {
       icon: img4,
-      title: "Easy Integration",
-      description: "Seamlessly integrate our AI chatbot with your existing systems, websites, and apps.",
-      linkText: "Discover more",
+      title: "Seamless Integration",
+      description: "Integrate our AI chatbot effortlessly with your existing systems, websites, and applications.",
+      linkText: "Learn more",
     },
   ];
 
   return (
     <div className="flex flex-col items-center gap-5 p-10">
       <h1 className="font-medium text-[48px] text-center">
-        Harness the Power <br /> of Smart Conversations
+        Unlock the Power <br /> of intellengent Conversations
       </h1>
       <p className="text-[#5F6365] text-center font-normal text-[18px]">
-        Discover how our AI chatbot's advanced features adapt to user queries
+        Explore how our AI chatbot's advanced features Seamlessly adapt to user queries
       </p>
 
       <div className="flex flex-col items-center justify-center mt-5">
