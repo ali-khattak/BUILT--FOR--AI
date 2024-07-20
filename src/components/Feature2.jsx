@@ -1,5 +1,5 @@
 import React from "react";
-import content from "/Content.svg";
+import content from "/Feature1.svg";
 
 const Feature1 = () => {
   return (
@@ -12,11 +12,14 @@ const Feature1 = () => {
             alt="Describe an Image"
             className="rounded-lg shadow-lg"
           />
-          <div className="absolute bottom-0 bg-white p-4 rounded-b-lg shadow-md">
+          <div className="absolute bottom-0 left-16 bg-white p-4 rounded-b-lg shadow-md w-96">
             <p className="text-gray-700">
-              The image shows a sleek, white sports car speeding...
-            </p>
+               The image shows a sleek,
+               white sports car speeding...
+           </p>
           </div>
+
+
         </div>
       </div>
       <div className="flex flex-col justify-center  gap-5 ">
