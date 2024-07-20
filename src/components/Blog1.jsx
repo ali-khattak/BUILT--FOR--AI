@@ -12,25 +12,25 @@ const Blog1 = () => {
   };
 
   return (
-    <div className="flex flex-col justify-between md:h-[580px] rounded-lg p-5">
+    <div className="flex flex-col justify-between h-auto rounded-lg p-5">
       <div className="flex flex-col gap-5">
         <img
           src={blog.img}
           alt={blog.title}
-          className="w-full h-[550px] object-cover rounded-lg"
+          className="w-full h-[300px] md:h-[550px] object-cover rounded-lg"
         />
-        <h1 className="text-white font-semibold text-[24px]">
+        <h1 className="text-white font-semibold text-[18px] md:text-[24px]">
           {blog.title}
         </h1>
-        <p className="font-normal text-[16px] text-[#F9FAFA]">
+        <p className="font-normal text-[14px] md:text-[16px] text-[#F9FAFA]">
           {blog.desc}
         </p>
-        <div className="flex items-center gap-5">
-          <p className="font-medium text-[14px] text-[#F9FAFA]">
+        <div className="flex items-center gap-2 md:gap-5">
+          <p className="font-medium text-[12px] md:text-[14px] text-[#F9FAFA]">
             {blog.date}
           </p>
           <div className="h-2 w-2 rounded-full bg-white"></div>
-          <p className="font-medium text-[14px] text-[#F9FAFA]">
+          <p className="font-medium text-[12px] md:text-[14px] text-[#F9FAFA]">
             {blog.time}
           </p>
         </div>
