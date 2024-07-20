@@ -5,7 +5,7 @@ import rightLogo from "/Ailogo.svg";
 
 const Navbar = () => {
   const [menuVisible, setMenuVisible] = useState(false);
-  const menuItems = ["About Us", "Resources", "Pricing Plans", "User Reviews"];
+  const menuItems = ["About ", "Resources", "Pricing ", " Reviews"];
 
   const handleToggleMenu = () => {
     setMenuVisible((prevVisible) => !prevVisible);
@@ -40,7 +40,7 @@ const Navbar = () => {
         </nav>
         <div className="hidden lg:flex items-center">
           <button className="mr-4 px-5 py-2 bg-[#F9FAFA] rounded-full text-gray-600 border border-[#919495] hover:text-gray-800">
-            Login In
+            Login 
           </button>
           <button className="bg-green-600 text-white px-5 py-2 rounded-full">
             Register
@@ -67,7 +67,7 @@ const Navbar = () => {
             </ul>
             <div className="flex flex-col items-center mt-4">
               <button className="mb-2 px-5 py-2 bg-[#F9FAFA] rounded-full text-gray-600 border border-[#919495] hover:text-gray-800">
-                Login In
+                Login 
               </button>
               <button className="bg-green-600 text-white px-5 py-2 rounded-full">
                 Register
