@@ -18,7 +18,7 @@ const Blog1 = () => {
         alt={blog.title}
         className="w-full h-[300px] md:h-[550px] object-cover rounded-lg"
       />
-      <div className="absolute inset-0 flex flex-col justify-end p-5 bg-black bg-opacity-50 rounded-lg">
+      <div className="absolute inset-0 flex flex-col justify-end p-5 rounded-lg">
         <h1 className="text-white font-semibold text-[18px] md:text-[24px]">
           {blog.title}
         </h1>
